@@ -2,7 +2,7 @@
 
 #### Project
 
-This RedditBot posts once daily on a chosen subreddit. In the body of the post, a random motivational quote from the .csv file is submitted.
+This RedditBot posts each monring on a chosen subreddit. In the body of the post, a random motivational quote from the .csv file is submitted to help the user start the day.
 
 #### Hosting
 
