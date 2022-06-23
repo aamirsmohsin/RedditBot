@@ -2,7 +2,7 @@
 
 ### Project
 
-RedditBot uses the Python Reddit API Wrapper (PRAW) to interact with Reddit's API. It accesses CSV and JSON files to generate content for post and comment submissions each day.
+RedditBot uses the Python Reddit API Wrapper (PRAW) to interact with Reddit's API. It accesses CSV and JSON files to generate content for post and comment submissions each day. To use this yourself, fill in the PRAW instance with account information you receive from [Reddit](https://www.reddit.com/prefs/apps).
 
 ### Hosting
 
