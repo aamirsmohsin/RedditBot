@@ -1,9 +1,9 @@
 # RedditBot
 
-#### Project
+### Project
 
-This RedditBot posts each morning on a chosen subreddit. In the body of the post, a random motivational quote from the .csv file is submitted to help the user start the day.
+RedditBot uses the Python Reddit API Wrapper (PRAW) to interact with Reddit's API. It accesses CSV and JSON files to generate content for post and comment submissions each day.
 
-#### Hosting
+### Hosting
 
-The bot is hosted using replit. If not run as a webpage, replit will cease a program after two hours. Therefore, the keep_alive.py file creates an unmanned webpage so that the bot is able to run 24/7. [UptimeRobot](https://uptimerobot.com/) visits the unmanned webpage every five minutes to ensure it stays up.
+keep_alive.py creates a web application using Flask, which is visited every five minutes by [UptimeRobot](https://uptimerobot.com/) to keep the web application online and the bot running.
